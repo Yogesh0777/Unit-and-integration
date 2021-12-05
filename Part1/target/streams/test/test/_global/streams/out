@@ -1,0 +1,32 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.problem2.FactAndPalindromeTest, org.scalatest.tools.Framework$$anon$1@553406bf, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.problem1.PasswordValidationTest, org.scalatest.tools.Framework$$anon$1@553406bf, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFactAndPalindromeTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFactorial[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be Positive[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFactorial[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not contain a null value[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPalindrome[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return true if the user input is palindrome[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPalindrome[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false if the user input is not a palindrome[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPasswordValidationTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have all necessary features[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid if character are less then 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid if it is not contain 8 to 15 characters length[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid if it is not contain a lowercase letter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid if it is not contain a uppercase letter[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Password[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be invalid if it is not contain a special character[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 280 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 10[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.problem1.PasswordValidationTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.problem2.FactAndPalindromeTest[0m

@@ -1,0 +1,66 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.validator.EmailValidatorTest, org.scalatest.tools.Framework$$anon$1@6e145f29, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.db.CompanyReadDtoTest, org.scalatest.tools.Framework$$anon$1@6e145f29, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.request.CompanyImplUnitTest, org.scalatest.tools.Framework$$anon$1@6e145f29, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.validator.CompanyValidatorTest, org.scalatest.tools.Framework$$anon$1@6e145f29, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyReadDtoTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should used[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not used[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(com.knoldus.request.CompanyImplIntegrationTest, org.scalatest.tools.Framework$$anon$1@6e145f29, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmailValidatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32memail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should contain  uppercase and lowercase[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should started with number is valid[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should valid that contain name has dot and underscore[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should incorrect with missing @[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should incorrect with start with special word except underscore and dot[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should incorrect with space in between[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should incorrect with missing top domain[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should incorrect with missing main domain[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should incorrect when wrong top level domain except .com/.org/.net[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should incorrect with more than one top level domain[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mEmail[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should incorrect with contain double dots after name[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyImplIntegrationTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be incorrect as it already used in DB[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be incorrect as email id is incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be incorrect as email id is incorrect and company already used in DB[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyImplUnitTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be create[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not be create[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompanyValidatorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be correct[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should incorrect as it already in the DB[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be correct as the email id is incorrect[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCompany[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be incorrect if email id invalid and already used[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 443 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 23[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 5, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 23, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.validator.CompanyValidatorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.request.CompanyImplIntegrationTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.request.CompanyImplUnitTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.validator.EmailValidatorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.knoldus.db.CompanyReadDtoTest[0m

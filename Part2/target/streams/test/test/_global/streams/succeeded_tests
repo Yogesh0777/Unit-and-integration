@@ -1,0 +1,7 @@
+#Successful Tests
+#Sun Dec 05 21:32:40 IST 2021
+com.knoldus.validator.CompanyValidatorTest=1638720160721
+com.knoldus.validator.EmailValidatorTest=1638720158643
+com.knoldus.request.CompanyImplUnitTest=1638720160635
+com.knoldus.request.CompanyImplIntegrationTest=1638720158674
+com.knoldus.db.CompanyReadDtoTest=1638720158612

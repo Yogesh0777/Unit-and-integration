@@ -1,0 +1,1 @@
+["com.knoldus.validator.CompanyValidatorTest","com.knoldus.request.CompanyImplIntegrationTest","com.knoldus.request.CompanyImplUnitTest","com.knoldus.validator.EmailValidatorTest","com.knoldus.db.CompanyReadDtoTest"]
